@@ -2,6 +2,7 @@ import { useState } from "react";
 import { PredictionForm, PredictionResult } from "@/components/PredictionForm";
 import { PredictionResults } from "@/components/PredictionResults";
 import { TeamSection } from "@/components/TeamSection";
+import { StatsSection } from "@/components/StatsSection";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { GraduationCap, TrendingUp, Brain } from "lucide-react";
 
@@ -57,6 +58,9 @@ const Index = () => {
             <PredictionResults result={predictionResult} />
           )}
         </div>
+
+        {/* Statistics Section */}
+        <StatsSection />
 
         {/* Team Section */}
         <TeamSection />
