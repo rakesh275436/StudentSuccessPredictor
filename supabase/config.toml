@@ -1,0 +1,4 @@
+project_id = "lwctcszldnxjoachrgjk"
+
+[functions.predict-performance]
+verify_jwt = false
